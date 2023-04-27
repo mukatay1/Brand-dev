@@ -57,7 +57,6 @@ export default function Login() {
                     flexDirection: 'column',
                     justifyContent: 'center',
                     height: '100%',
-
                 }}>
                     
                     {error ? <Typography color="error">{error}</Typography> : ''}
